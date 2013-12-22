@@ -1,6 +1,9 @@
 ---
 layout: post
 title: 为什么写blog
+tagline: 
+description:
+tags: ["记事"]
 ---
 {% include JB/setup %}
 

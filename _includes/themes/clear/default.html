@@ -38,7 +38,8 @@
         <ul class="nav nav-right">
           <li><a href="/index.html">主 页</a></li>
           <li><a href="/archive.html">归 档</a></li>
-         <li><a href="/tags.html">标 签</a></li>
+          <li><a href="/tags.html">标 签</a></li>
+          <li><a href="/books.html">读 书</a></li>
           <li><a href="/about.html">关 于</a></li>
           <li><a href="/messages.html">留 言</a></li>
         </ul>
@@ -83,10 +84,13 @@
   <script type="text/javascript">
     $(function() {
 
+      //begin add kekuixiong
       $('.nav-right').css("float","right");
       $('.container .brand').css("font-size","30px");
+      $('.mainbody h2').css("font-size","20px");
 
 
+      //end add kekuixiong
       $('a[href^="http"]').each(function () {
         $(this).attr('target', '_blank');
       });
