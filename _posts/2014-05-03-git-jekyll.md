@@ -3,7 +3,7 @@ layout: post
 title: github blog--Jekyll
 tagline: 
 description:
-tags: ["vi"]
+tags: ["git jekyll"]
 ---
 {% include JB/setup %}
 ###github blog--Jekyll搭建步骤
